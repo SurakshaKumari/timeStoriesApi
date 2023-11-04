@@ -11,7 +11,7 @@ app.use(cors());
 
 app.use(express.json());
 
-app.get('/backend/server', async (req, res) => {
+app.get('/server', async (req, res) => {
   try {
     // Define the API endpoint with the API key as a query parameter
     const apiUrl = 'https://api.nytimes.com/svc/topstories/v2/home.json?api-key=' + apiKey;
