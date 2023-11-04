@@ -9,7 +9,7 @@ function DataComponent() {
 
   useEffect(() => {
     // Define the URL where your Express server is running
-    const apiUrl = 'http://localhost:5000/backend/server';
+    const apiUrl = 'http://localhost:5000/server';
     console.log(apiUrl);
     axios
       .get(apiUrl)
